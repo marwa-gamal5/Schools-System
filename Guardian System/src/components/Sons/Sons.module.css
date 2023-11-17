@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+.header{
+    color: var(--gray-8, #1F1F1F);
+
+/* head/Headline 3 */
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: 1.2px;
+}
+.title{
+    color: var(--blue-600, #053198);
+
+/* head/Headline 3 */
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: 1.2px;
+
+}
+.span{
+    color: var(--blue-500, #0951FE);
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 200% */
+}
+.p{
+    color: #000;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 200% */
+}
+
+.image{
+    top:60px;
+    left:27%;
+   
+}
+
+
+/* For larger screens */
+@media (min-width: 992px) {
+    .containt {
+      padding-left: 247px  !important;
+    }
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 991px) {
+    .containt {
+      padding-left: 100px !important;
+    }
+  }

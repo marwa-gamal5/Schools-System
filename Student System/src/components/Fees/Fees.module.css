@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+body {
+    background-color: #EFF4FF !important;
+}
+.title{
+    color: var(--gray-8, #1F1F1F);
+
+/* title/Title 1 */
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+}
+.box{
+    padding: 24px;
+    border-radius: 12px;
+    background: #FFF;
+    
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.14);
+    }
+ 
+
+    .contaner3{
+  
+        height: 40px;
+        width: auto;
+        border-radius: 8px;
+        border: 1px solid var(--gray-2, #D6D6D6);
+        background: var(--gray-1, #F5F5F5);
+        }
+        .p3{
+            color: var(--gray-8, #1F1F1F);
+        font-family: Work Sans;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        }
+
+
+.buttonstyle{
+    display: flex;
+height: 80px;
+padding: 0px 16px;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+border: none;
+
+background: var(--White, #FFF);
+
+box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.14);
+}
+.buttonstyle:hover{
+    display: flex;
+height: 80px;
+padding: 0px 16px;
+justify-content: space-between;
+align-items: center;
+border-radius: 8px;
+border: none;
+border-bottom: 4px solid var(--blue-500, #0951FE);
+background: var(--White, #FFF);
+
+
+}
+.buttonstyle2{
+    display: flex;
+    height: 80px;
+    padding: 0px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    border-bottom: 4px solid var(--blue-500, #0951FE);
+    background: var(--White, #FFF);
+}
+
+.p1{
+    color: var(--gray-8, #1F1F1F);
+
+/* head/Headline 2 */
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+ /* 133.333% */
+
+}
+.buttonstyle:hover .p1{
+    color: var(--blue-500, #0951FE);
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+ /* 133.333% */
+letter-spacing: 1.2px;
+}
+.p5{
+    color: var(--blue-500, #0951FE);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+     /* 133.333% */
+    letter-spacing: 1.2px;
+}
+
+.header{
+    color: var(--gray-8, #1F1F1F);
+
+/* head/Headline 3 */
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: 1.2px;
+}
+.boxboreder{
+    display: flex;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+border-radius: 16px;
+border: 1px solid var(--gray-2, #D6D6D6);
+background: #FFF;
+}
+
+.th{
+    background-color: #6B97FE !important;
+
+    color: var(--White, #FFF)!important; 
+
+font-size: 16px!important; 
+font-style: normal!important; 
+font-weight: 600!important; 
+line-height: 150%!important; 
+    
+}
+.buttontable{
+
+padding: 5px 20px;
+border: none;
+border-radius: 8px;
+background: var(--green-6, #28C794);;
+}
+.buttontable2{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 8px;
+    background: var(--red-6, #D91C1F);
+}
+.buttontp{
+    color: var(--White, #FFF);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+/* Define media queries for different screen sizes */
+@media only screen and (max-width: 1200px) {
+.buttontp,
+  .td,
+  .th {
+    font-size: 14px !important;
+  }
+  .header{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    .buttontp,
+  .td,
+  .th {
+    font-size: 12px !important;
+  }
+  .header{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .buttontp,
+  
+  .th {
+    font-size: 10px !important;
+  }
+ 
+  .header{
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .boxboreder{
+    display: flex;
+padding: 0px;
+flex-direction: column;
+align-items: center;
+margin-top: 0;
+margin-bottom: 0;
+border-radius: 16px;
+border: 0px solid var(--gray-2, #D6D6D6);
+background: #EFF4FF;
+}
+    .buttontp,
+  .th {
+    font-size: 12px !important;
+  }
+  .td{
+    font-size: 12px !important;
+ 
+  }
+  .header{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+    .buttontp,
+  .th {
+    font-size: 10px !important;
+  }
+  .td{
+    font-size: 7px !important;
+  }
+  .header{
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .buttontp,
+  .th {
+    font-size: 8px !important;
+  }
+  .td{
+    font-size: 6px !important;
+  }
+  .header{
+    font-size: 20px;
+  }
+}
+
+ @media   only screen and (max-width: 396px) {
+    .image{
+     width: 160px; 
+    }
+    .p8{
+    font-size: 13px;
+    }
+    .p3{
+        font-size: 14px; 
+    }
+    
+
+}
+@media   only screen and (max-width: 1249px) and (min-width: 1200px){
+
+    .p8{
+        font-size: 13px;
+        }
+        .p3{
+            font-size: 15px; 
+        }
+}  
+
+@media   only screen and (max-width: 1055px) and (min-width: 992px){
+
+    .p8{
+        font-size: 13px;
+        }
+        .p3{
+            font-size: 15px; 
+        }
+}  
+@media   only screen and (max-width: 896px) and (min-width: 768px){
+
+    .p8{
+        font-size: 11px;
+        }
+        .p3{
+            font-size: 13px; 
+        }
+}  
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1200px) {
+    .buttonstyle:hover .p1,
+    .p1 {
+        font-size: 24px;
+    }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .buttonstyle:hover .p1,
+    .p1 {
+        font-size: 20px;
+    }
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .buttonstyle:hover .p1,
+    .p1 {
+        font-size: 15px;
+    }
+}
+
+/* Small Screens */
+@media only screen and (max-width: 767px) {
+    .buttonstyle:hover .p1,
+    .p1 {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .buttonstyle:hover .p1,
+    .p1 {
+        font-size: 10px;
+    }
+}

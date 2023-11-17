@@ -1,0 +1,25 @@
+.p1{
+    color: var(--gray-8, #1F1F1F);
+
+/* title/Title 3 */
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+
+
+.filedstyle{
+    
+    display: flex;
+    height: 56px;
+    padding: 0px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 8px;
+border: 1px solid var(--gray-2, #D6D6D6);
+background: var(--gray-1, #F5F5F5);
+}

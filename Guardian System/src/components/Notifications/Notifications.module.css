@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+.header{
+    color: var(--gray-8, #1F1F1F);
+
+/* head/Headline 3 */
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 133.333% */
+letter-spacing: 1.2px;
+}
+.boxboreder{
+    display: flex;
+padding: 16px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+border-radius: 16px;
+border: 1px solid var(--gray-2, #D6D6D6);
+background: #FFF;
+}
+
+.th{
+    background-color: #6B97FE !important;
+
+    color: var(--White, #FFF)!important; 
+
+font-size: 16px!important; 
+font-style: normal!important; 
+font-weight: 600!important; 
+line-height: 150%!important; 
+    
+}
+
+/* Define media queries for different screen sizes */
+@media only screen and (max-width: 1200px) {
+  .td,
+  .th {
+    font-size: 14px !important;
+  }
+  .header{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .td,
+  .th {
+    font-size: 12px !important;
+  }
+  .header{
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .th {
+    font-size: 10px !important;
+  }
+ 
+  .header{
+    font-size: 22px;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .th {
+    display: none;
+  }
+  
+.td {
+    display: block;
+    width: 100%; /* Adjust the width as needed */
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    font-size: 9px!important; 
+  }
+  .td::before{
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    text-align: left;
+font-size: 9px!important; 
+font-style: normal!important; 
+font-weight: 600!important; 
+line-height:18px!important;
+ 
+    
+  }
+ 
+ .tr{
+  border-width: 7px !important;
+  border-color: #EFF4FF ;
+  
+ }
+
+
+}

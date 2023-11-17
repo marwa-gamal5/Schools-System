@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+.sidbar{
+  position: fixed;
+  flex-direction: column;
+  width: 247px;
+height: 100%;
+top:0;
+left: 0;
+z-index: 33;
+overflow-x: hidden;
+ padding-top: 65px;
+/* */
+/* padding: 0px 16px; */
+flex-direction: column;
+background-color: white !important;
+
+
+
+}
+/* SideBar.module.css */
+.logout{
+  color: var(--gray-700, #535353);
+
+/* En/regular/14 */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.linkNoUnderline {
+  text-decoration: none; /* This removes the underline */
+}
+
+
+.select {
+  text-decoration: none;
+}
+
+.sidbar2{
+  display: flex;
+  flex-grow: 1;
+  background-color: white !important;
+padding: 0px 16px;
+
+
+flex-direction: column; 
+}
+.p2{
+  color: var(--gray-5, #555);
+
+/* title/Title 2 */
+font-family: 'Work Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+.p1{
+  color: var(--blue-500, #0951FE);
+
+  /* title/Title 1 */
+  font-family: 'Work Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+    text-decoration: none;
+}
+
+
+.select{
+  display: flex;
+  justify-content: start;
+  padding: 3%;
+  padding-left: 2%;
+  align-items: center;
+  background-color:#EFF4FF;
+  width: 215px;
+  height: 50px;
+
+  
+}
+
+/* For larger screens */
+@media (min-width: 992px) {
+  .sidbar {
+    width: 250px;
+  }
+  .select {
+    display: flex;
+  }
+}
+
+/* For smaller screens */
+@media (max-width: 991px) {
+  .sidbar {
+    width: 100px;
+  }
+  .select {
+    display: none; 
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+ 
+  .sidbar {
+    width: 50px;
+  }
+  .select {
+    display: none; 
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ 
+  .sidbar {
+    width: 50px;
+  }
+  .select {
+    display: none; 
+  }
+}
