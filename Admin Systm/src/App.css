@@ -1,0 +1,46 @@
+
+
+body{
+  background-color: #EFF4FF !important;
+}
+.containt {
+  background-color: #EFF4FF !important;
+  padding-top: 80px; /* Assuming your Navbar height is 56px */
+  padding-bottom: 32px; /* Assuming your Footer height is 32px */
+
+
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFF; /* Give your Footer its own background color */
+}
+
+/* For larger screens */
+@media (min-width: 992px) {
+  .containt {
+    padding-left: 247px  !important;
+  }
+}
+
+/* For smaller screens */
+@media (max-width: 991px) {
+  .containt {
+    padding-left: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+ 
+  .containt {
+    padding-left: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+ 
+  .containt {
+    padding-left: 50px !important;
+  }
+}
