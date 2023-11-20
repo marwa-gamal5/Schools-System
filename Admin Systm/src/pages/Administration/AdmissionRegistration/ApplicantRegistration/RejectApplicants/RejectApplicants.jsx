@@ -1,9 +1,9 @@
 
 import Form from 'react-bootstrap/Form';
 import React, { useState } from 'react';
-import styles from './ViewApplicants.module.css';
+import styles from './RejectApplicants.module.css';
 import InputGroup from "react-bootstrap/InputGroup";
-function ViewApplicants() {
+function RejectApplicants() {
   const [isFilterTableVisible, setFilterTableVisible] = useState(false);
 
   const toggleFilterTable = () => {
@@ -284,4 +284,4 @@ function ViewApplicants() {
   )
 }
 
-export default ViewApplicants
+export default RejectApplicants

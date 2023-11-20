@@ -68,9 +68,12 @@ import NewStudentReport from './pages/Administration/AdmissionRegistration/NewSt
 
 // end  Admission & Registration Routes
 
-// start  Administration in Admission & Registration Routes in Applicant Registration in ViewApplicants 
+// start  Administration in Admission & Registration Routes in Applicant Registration 
 import ViewApplicants from './pages/Administration/AdmissionRegistration/ApplicantRegistration/View Applicants/ViewApplicants';
-// End   Administration in Admission & Registration Routes in Applicant Registration in ViewApplicants 
+import ViewAllApplicants  from './pages/Administration/AdmissionRegistration/ApplicantRegistration/ViewAllApplicants/ViewAllApplicants';
+import AllotApplicants from './pages/Administration/AdmissionRegistration/ApplicantRegistration/AllotApplicants/AllotApplicants';
+import RejectApplicants from './pages/Administration/AdmissionRegistration/ApplicantRegistration/RejectApplicants/RejectApplicants';
+// End   Administration in Admission & Registration Routes in Applicant Registration 
  
 function App() {
   return (
@@ -667,7 +670,7 @@ function App() {
             }
           />
             {/* End Admission & Registration Routes */}
-            {/* start  Administration in Admission & Registration Routes in Applicant Registration in ViewApplicants Routes  */}
+            {/* start  Administration in Admission & Registration Routes in Applicant Registration  Routes  */}
 
             <Route
             exact
@@ -681,8 +684,56 @@ function App() {
               </>
             }
           />
+            <Route
+            exact
+            path="Administration/AdmissionRegistration/ViewAllApplicants/ViewAllApplicants"
+            element={
+              <>
+                <Navbarr />
+                <SideBar />
+                <ViewAllApplicants />
+                <Footer />
+              </>
+            }
+          />
+             <Route
+            exact
+            path="Administration/AdmissionRegistration/AllotApplicants/AllotApplicants"
+            element={
+              <>
+                <Navbarr />
+                <SideBar />
+                <AllotApplicants />
+                <Footer />
+              </>
+            }
+          />
+              <Route
+            exact
+            path="Administration/AdmissionRegistration/AllotApplicants/AllotApplicants"
+            element={
+              <>
+                <Navbarr />
+                <SideBar />
+                <AllotApplicants />
+                <Footer />
+              </>
+            }
+          />
+             <Route
+            exact
+            path="Administration/AdmissionRegistration/RejectApplicants/RejectApplicants"
+            element={
+              <>
+                <Navbarr />
+                <SideBar />
+                <RejectApplicants />
+                <Footer />
+              </>
+            }
+          />
 
- {/* end  Administration in Admission & Registration Routes in Applicant Registration in ViewApplicants  */}
+ {/* end  Administration in Admission & Registration Routes in Applicant Registration   */}
           
                           
         </Routes>
