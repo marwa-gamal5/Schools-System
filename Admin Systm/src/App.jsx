@@ -686,7 +686,7 @@ function App() {
           />
             <Route
             exact
-            path="Administration/AdmissionRegistration/ViewAllApplicants/ViewAllApplicants"
+            path="Administration/AdmissionRegistration/ApplicantRegistration/ViewAllApplicants/ViewAllApplicants"
             element={
               <>
                 <Navbarr />
@@ -698,7 +698,7 @@ function App() {
           />
              <Route
             exact
-            path="Administration/AdmissionRegistration/AllotApplicants/AllotApplicants"
+            path="Administration/AdmissionRegistration/ApplicantRegistration/AllotApplicants/AllotApplicants"
             element={
               <>
                 <Navbarr />
@@ -708,21 +708,10 @@ function App() {
               </>
             }
           />
-              <Route
-            exact
-            path="Administration/AdmissionRegistration/AllotApplicants/AllotApplicants"
-            element={
-              <>
-                <Navbarr />
-                <SideBar />
-                <AllotApplicants />
-                <Footer />
-              </>
-            }
-          />
+            
              <Route
             exact
-            path="Administration/AdmissionRegistration/RejectApplicants/RejectApplicants"
+            path="Administration/AdmissionRegistration/ApplicantRegistration/RejectApplicants/RejectApplicants"
             element={
               <>
                 <Navbarr />

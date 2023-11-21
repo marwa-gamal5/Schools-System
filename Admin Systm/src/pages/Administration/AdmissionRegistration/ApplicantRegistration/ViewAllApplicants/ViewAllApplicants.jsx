@@ -12,7 +12,7 @@ function ViewAllApplicants() {
   return (
     <div className='containt' style={{ paddingTop: '80px', paddingBottom: '32px', paddingLeft: "247px" }}>
       <div className='p-4'>
-       <div className={`${styles.title}`}>View Applicants</div>
+       <div className={`${styles.title}`}>View All Applicants</div>
        <div className={`${styles.box} mt-4 `}>
    
           <div className="row d-flex justify-content-start align-items-center w-100">

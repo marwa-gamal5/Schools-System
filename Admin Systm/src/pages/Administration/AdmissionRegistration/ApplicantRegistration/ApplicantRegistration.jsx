@@ -12,19 +12,19 @@ function ApplicantRegistration() {
   };
   const handleAllotApplicantsClick = () => {
     
-    navigate('/Administration/AdmissionRegistration/ViewAllApplicants/ViewAllApplicants');
+    navigate('/Administration/AdmissionRegistration/ApplicantRegistration/AllotApplicants/AllotApplicants');
 
     
   };
   const handleRejectApplicantsClick = () => {
     
-    navigate('/Administration/AdmissionRegistration/RejectApplicants/RejectApplicants');
+    navigate('/Administration/AdmissionRegistration/ApplicantRegistration/RejectApplicants/RejectApplicants');
 
     
   };
   const handleViewAllApplicantsClick = () => {
     
-    navigate('/Administration/AdmissionRegistration/RejectApplicants/RejectApplicants');
+    navigate('/Administration/AdmissionRegistration/ApplicantRegistration/ViewAllApplicants/ViewAllApplicants');
 
     
   };

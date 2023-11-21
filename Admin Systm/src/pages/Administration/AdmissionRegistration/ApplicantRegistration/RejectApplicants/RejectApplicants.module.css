@@ -104,6 +104,14 @@ background: var(--red-1, #FFE2E2)
 border: 1px solid var(--red-5, #E84A4D);
 background: var(--red-1, #FFE2E2);
 }
+.p4{
+  color: var(--red-6, #D91C1F);
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 240% */
+}
 
 /* Define media queries for different screen sizes */
 @media only screen and (max-width: 1200px) {
@@ -166,6 +174,13 @@ background: var(--red-1, #FFE2E2);
     padding: 2px;
     
    }
+   .p3,
+   .p4,
+   .p2{
+    font-size: 8px;
+   }
+   
+
    .button1{
 
     padding: 0px 20px;}
