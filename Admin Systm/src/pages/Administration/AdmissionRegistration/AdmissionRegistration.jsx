@@ -9,8 +9,8 @@ function AdmissionRegistration() {
   //set button Routes
   const buttonRoutes = [
     "/Administration/AdmissionRegistration/ApplicantRegistration",
-    "/Administration/AdmissionRegistration/DirectAdmit",
-    "/Administration/AdmissionRegistration/ApplicantRegistrationReport",
+    "/Administration/AdmissionRegistration/ManageStage",
+    "/Administration/AdmissionRegistration/InitialClasss",
     "/Administration/AdmissionRegistration/ManageApplicantDetails",
     "/Administration/AdmissionRegistration/ApplicantRegistrationSetting",
 
@@ -37,7 +37,8 @@ function AdmissionRegistration() {
   const buttonNames = [
     "Applicant Registration",
     "Direct Admit",
-    "Applicant Registration Report",
+    // "Applicant Registration Report",
+      "Initial Class",
     "Manage Applicant Details",
     "Applicant Registration Setting ",
 

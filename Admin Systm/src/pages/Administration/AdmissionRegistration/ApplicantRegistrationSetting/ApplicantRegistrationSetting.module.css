@@ -1,0 +1,99 @@
+.title{
+    color: var(--gray-8, #1F1F1F);
+
+    /* head/Headline 3 */
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 1.2px;
+}
+.rectangular{
+    /* width: 267px; */
+    height: 62px;
+    padding: 0px 12px;
+
+    flex-shrink: 0;
+    border-radius: 5.094px;
+    border: 1px solid var(--gray-2, #D6D6D6);
+    background: var(--White, #FFF);
+}
+.rectangular2{
+    height: 62px;
+    padding: 0px 12px;
+    flex-shrink: 0;
+    border-radius: 5.094px;
+    border-top: 1px solid var(--blue-500, #0951FE);
+    border-right: 1px solid var(--blue-500, #0951FE);
+    border-bottom: 2.547px solid var(--blue-500, #0951FE);
+    border-left: 1px solid var(--blue-500, #0951FE);
+    background: var(--White, #FFF);
+}
+.p1{
+
+    color: var(--gray-8, #1F1F1F);
+
+    /* title/Title 2 */
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+}
+.p2{
+
+    color: var(--gray-8, #1F1F1F);
+
+    /* title/Title 2 */
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 150% */
+}
+.p3{
+    color: var(--blue-500, #0951FE);
+
+    /* title/Title 1 */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+}
+.icon{
+    font-size: 20px;
+}
+.rectangular:hover {
+    border-top: 1px solid var(--blue-500, #0951FE);
+    border-right: 1px solid var(--blue-500, #0951FE);
+    border-bottom: 2.547px solid var(--blue-500, #0951FE);
+    border-left: 1px solid var(--blue-500, #0951FE);
+    background: var(--White, #FFF);
+    color: var(--blue-500, #0951FE);
+}
+.icon2{
+    font-size: 20px;
+    color: #0951FE;
+}
+.rectangular:hover .p1 {
+
+    /* title/Title 1 */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    color: #0951FE;
+}
+.rectangular:hover .p2 {
+
+    /* title/Title 1 */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 133.333% */
+    color: #0951FE;
+}

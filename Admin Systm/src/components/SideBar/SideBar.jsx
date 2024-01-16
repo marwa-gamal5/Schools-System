@@ -15,8 +15,10 @@ function SideBar() {
   const [activeIndex, setActiveIndex] = useState(1);
 
   const links = [
-    { path: "/", name: "Academics", icon: Vector1 },
+      { path: "/", name: "Home", icon: Vector1 },
     { path: "/Administration", name: "Administration", icon: Vector2 },
+    { path: "/academics", name: "Academics", icon: Vector1 },
+
     { path: "/Data_and__Reportsfrom", name: "Data and Reports", icon: Vector5 },
     { path: "/Students", name: "Students", icon: Vector6 },
     { path: "/Parent", name: "Parent", icon: Vector8 },
@@ -51,11 +53,11 @@ function SideBar() {
       </div>
       <div className="mt-auto d-flex justify-content-start align-items-end pb-3 mb-5 ms-3"> {/* Removed the logout class */}
       <div className="d-flex ">
-        
+
         <i className="fa-solid fa-right-from-bracket mt-1 me-2" style={{ color: "#858585" }}></i>
         <p className={`${styles.logout} d-none d-lg-inline`}>Logout</p>
         </div>
-       
+
       </div>
     </div>
   );
